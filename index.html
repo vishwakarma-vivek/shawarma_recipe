@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shawarma Recipes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f2f2f2;
+    }
+    
+    h1 {
+      text-align: center;
+      color: #333;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+    
+    .recipe {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+    }
+    
+    .recipe h2 {
+      margin-top: 0;
+      font-size: 24px;
+      color: #333;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    
+    .recipe p {
+      margin-top: 5px;
+      line-height: 1.5;
+      color: #666;
+    }
+    
+    .recipe img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+    
+    .recipe ul,
+    .recipe ol {
+      margin-left: 20px;
+      color: #666;
+    }
+    
+    .recipe li {
+      margin-bottom: 10px;
+    }
+    
+    .recipe a {
+      color: #333;
+      text-decoration: none;
+    }
+    
+    .recipe a:hover {
+      text-decoration: underline;
+    }
+
+    @media screen and (max-width: 600px) {
+      .recipe {
+        padding: 10px;
+      }
+
+      .recipe h2 {
+        font-size: 20px;
+      }
+
+      .recipe img {
+        margin-bottom: 10px;
+      }
+    }
+    
+    @media screen and (max-width: 768px) {
+      h1 {
+        font-size: 28px;
+      }
+
+      .recipe h2 {
+        font-size: 22px;
+      }
+    }
+    
+    @media screen and (min-width: 1200px) {
+      body {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+    }
+
+    .marquee {
+      white-space: nowrap;
+      overflow: hidden;
+      box-sizing: border-box;
+      animation: marquee 15s linear infinite;
+    }
+
+    @keyframes marquee {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Shawarma Recipes</h1>
+
+  <div class="marquee">
+    <p>Try our delicious Chicken Shawarma recipe today! | Check out our other mouthwatering shawarma recipes!</p>
+  </div>
+
+  <div class="recipe">
+    <h2>Chicken Shawarma</h2>
+    <img src="chicken_shawarma.jpg" alt="Chicken Shawarma">
+    <p>This is a delicious recipe for chicken shawarma. It's packed with flavor and easy to make.</p>
+    <p>Ingredients:</p>
+    <ul>
+      <li>Chicken breast</li>
+      <li>Shawarma spice mix</li>
+      <li>Garlic cloves</li>
+      <li>Plain yogurt</li>
+      <li>Lemon juice</li>
+      <li>Vegetables (tomatoes, cucumbers, onions)</li>
+      <li>Pita bread</li>
+      <li>Tahini sauce</li>
+    </ul>
+    <p>Instructions:</p>
+    <ol>
+      <li>Marinate the chicken breast with shawarma spice mix, garlic, yogurt, and lemon juice for at least 1 hour.</li>
+      <li>Grill the chicken until cooked through.</li>
+      <li>Slice the chicken and serve in warm pita bread with vegetables and tahini sauce.</li>
+    </ol>
+    <p>For more shawarma recipes, check out <a href="https://www.example.com">example.com</a>.</p>
+  </div>
+
+</body>
+</html>
