@@ -83,6 +83,15 @@
         transform: translateX(-100%);
       }
     }
+    
+    /* Additional Color Combinations */
+    .recipe.chicken .recipe-title {
+      color: #333;
+    }
+    
+    .recipe.vegetarian .recipe-title {
+      color: #333;
+    }
   </style>
 </head>
 <body>
@@ -95,8 +104,8 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 offset-lg-2">
-        <div class="recipe">
-          <h2>Chicken Shawarma</h2>
+        <div class="recipe chicken">
+          <h2 class="recipe-title">Chicken Shawarma</h2>
           <img src="chicken_shawarma.jpg" alt="Chicken Shawarma">
           <p>This is a delicious recipe for chicken shawarma. It's packed with flavor and easy to make.</p>
           <p>Ingredients:</p>
@@ -116,7 +125,29 @@
             <li>Grill the chicken until cooked through.</li>
             <li>Slice the chicken and serve in warm pita bread with vegetables and tahini sauce.</li>
           </ol>
-          <p>For more shawarma recipes, check out <a href="https://www.example.com">example.com</a>.</p>
+        </div>
+        
+        <div class="recipe vegetarian">
+          <h2 class="recipe-title">Vegetarian Shawarma</h2>
+          <img src="vegetarian_shawarma.jpg" alt="Vegetarian Shawarma">
+          <p>Enjoy this delicious vegetarian shawarma with a medley of flavorful vegetables.</p>
+          <p>Ingredients:</p>
+          <ul>
+            <li>Falafel</li>
+            <li>Hummus</li>
+            <li>Baba ganoush</li>
+            <li>Tabbouleh</li>
+            <li>Tomatoes</li>
+            <li>Cucumbers</li>
+            <li>Onions</li>
+            <li>Pita bread</li>
+          </ul>
+          <p>Instructions:</p>
+          <ol>
+            <li>Prepare the falafel according to the package instructions.</li>
+            <li>Warm the pita bread and spread a layer of hummus and baba ganoush.</li>
+            <li>Stuff the pita bread with falafel, tabbouleh, tomatoes, cucumbers, and onions.</li>
+          </ol>
         </div>
       </div>
     </div>
